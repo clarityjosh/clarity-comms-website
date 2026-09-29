@@ -145,3 +145,18 @@ footer{padding:44px 0;border-top:1px solid var(--line);color:var(--muted)}
   .section-head,.band,.footer-grid{align-items:flex-start;flex-direction:column}
   h1{font-size:2.75rem}
 }
+.clients-section{padding:56px 0 64px;border-top:1px solid var(--line);background:rgba(0,0,0,.2)}
+.clients-section h2{font-size:clamp(1.8rem,3.5vw,2.6rem);margin:12px 0 30px}
+.client-logos{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:18px;list-style:none;margin:0;padding:0}
+.client-logo{height:180px;display:flex;align-items:center;justify-content:center;border:1px solid var(--line);border-radius:14px;overflow:hidden;padding:18px}
+.client-logo img{width:100%;height:100%;object-fit:contain}
+.client-logo-paul{background:#4f5359}
+.client-logo-sheep{background:#404040}
+.client-logo-banc{background:#121212}
+.client-logo-brasserie{background:#264632}
+.client-logo-light{background:#fff}
+@media(max-width:620px){.client-logos{grid-template-columns:repeat(2,minmax(0,1fr));gap:12px}.client-logo{height:140px;padding:10px}.clients-section{padding:40px 0 48px}}
+
+.client-logo-kervan{background:#70343e}
+.client-logo-gym{background:#000}
+@media(min-width:621px) and (max-width:900px){.client-logos{grid-template-columns:repeat(2,minmax(0,1fr))}}
